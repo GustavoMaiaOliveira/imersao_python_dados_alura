@@ -1,41 +1,47 @@
 import pandas as pd
 
-print('teste')
+# print('teste')
 
-nome = 'maia'
-cor_favorita = 'roxo'
+# nome = 'maia'
+# cor_favorita = 'roxo'
 
-print(nome, cor_favorita)
+# print(nome, cor_favorita)
 
-saldo = 5000
+# saldo = 5000
 
-print(saldo)
+# print(saldo)
 
-saldo = saldo + 2000
+# saldo = saldo + 2000
 
-print('Seu saldo é de R$', saldo)
+# print('Seu saldo é de R$', saldo)
 
-saldo = saldo -500
+# saldo = saldo -500
 
-print('Esse é seu saldo atual', saldo)
+# print('Esse é seu saldo atual', saldo)
 
-saldo = saldo * 2
+# saldo = saldo * 2
 
-print('Esse é seu saldo dobrado', saldo)
+# print('Esse é seu saldo dobrado', saldo)
 
-import this
+# import this
 
-a = 500
+# a = 500
 
-tenis = 500
+# tenis = 500
 
-idade = 18
+# idade = 18
 
 # se a idade for mais que 18 anos, pode dirigir
 # se não
 # não pode dirigir
 
-if idade >= 18:
-    print('Pode dirigir!')
-else:
-    print('Não pode dirigir!')
+# if idade >= 18:
+#     print('Pode dirigir!')
+# else:
+#     print('Não pode dirigir!')
+
+df = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
+
+# print(df.head(10))
+
+df.info()
