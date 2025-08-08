@@ -48,9 +48,9 @@ df = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/r
 
 # print(df.describe())
 
-print(df.shape)
+# print(df.shape)
 
 linhas, colunas = df.shape[0], df.shape[1]
 
 print("linhas:", linhas)
-print("colunas:",colunas)
+print("colunas:", colunas)
